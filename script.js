@@ -1,5 +1,5 @@
 // ===== DATA =====
-
+console.log("Script loaded!");
 const questions = [
     {
         text: "You discover a door in the Enchanted Library that has no handle. What do you do?",
