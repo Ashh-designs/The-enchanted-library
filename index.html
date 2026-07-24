@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Enchanted Library</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Quicksand:wght@400;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="ambient-candle">
+        <img src="images/candle-icon.svg" alt="">
+    </div>
+
+    <div class="ambient-candle2">
+        <img src="images/candle-icon 2.svg" alt="">
+    </div>
+
+
+    <div class="dust-motes">
+        <span class="mote mote-1"></span>
+        <span class="mote mote-2"></span>
+        <span class="mote mote-3"></span>
+        <span class="mote mote-4"></span>
+        <span class="mote mote-5"></span>
+        <span class="mote mote-6"></span>
+    </div>
+
+    <main id="app">
+        <main id="app">
+
+            <!-- INTRO SCREEN -->
+            <section id="intro-screen" class="screen active">
+                <img src="images/library-exterior.png" alt="The Enchanted Library at night" class="intro-illustration">
+                <h1>The Enchanted Library</h1>
+                <p>Every visitor finds a different room. Which one is waiting for you?</p>
+                <button id="start-btn">Step Inside</button>
+            </section>
+
+            <!-- QUIZ SCREEN -->
+            <section id="quiz-screen" class="screen">
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progress-fill"></div>
+                </div>
+                <h2 id="question-text">Question goes here</h2>
+                <div id="answer-options">
+                    <!-- answer buttons will be inserted here by JavaScript -->
+                </div>
+            </section>
+
+            <!-- RESULT SCREEN -->
+            <section id="result-screen" class="screen">
+                <img src="images/locked-diary-shelf.svg" alt="Your room" class="result-illustration" id="result-image">
+                <h2 id="result-title">Room name goes here</h2>
+                <p id="result-tagline">Tagline goes here</p>
+                <p id="result-description">Full description goes here</p>
+                <p id="result-closing"><em>Closing line goes here</em></p>
+                <button id="retake-btn">Take the Quiz Again</button>
+            </section>
+
+        </main>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
