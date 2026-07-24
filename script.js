@@ -37,6 +37,7 @@ const questions = [
             { text: "Move on—you don't need everyone to understand you.", room: "stacks" }
         ]
     },
+    
     {
         text: "If you found a magical object in the library, which would you choose?",
         answers: [
