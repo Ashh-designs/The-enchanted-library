@@ -44,11 +44,36 @@
                 <button id="start-btn">Step Inside</button>
             </section>
 
+            <!-- LIBRARIAN INTRO SCREEN -->
+  <section id="librarian-screen" class="screen">
+    <img src="images/the-librarian.svg" alt="The Librarian" class="librarian-portrait">
+    <div class="dialogue-box">
+      <p class="dialogue-name">The Librarian</p>
+      <p>Ah. Another one who thinks pressing a button counts as bravery.</p>
+      <p>Sit down, dust off your curiosity — most of this library's been asleep for longer than you've been alive. Rooms sealed shut, doors that haven't opened in... well. Let's not get into that.</p>
+      <p>Every so often, someone wanders in who might wake one of them up. Might be you. Might not. Only one way to find out.</p>
+      <p>Let's see which door still remembers your name.</p>
+    </div>
+    <button id="librarian-continue-btn">Begin</button>
+  </section>
+
             <!-- QUIZ SCREEN -->
             <section id="quiz-screen" class="screen">
                 <div class="progress-bar">
                     <div class="progress-fill" id="progress-fill"></div>
                 </div>
+
+                <section id="quiz-screen" class="screen">
+    <div class="progress-bar">
+      <div class="progress-fill" id="progress-fill"></div>
+    </div>
+    <div class="librarian-tag">
+      <img src="images/the-librarian.svg" alt="" class="librarian-tag-icon">
+      <span>The Librarian asks:</span>
+    </div>
+    <h2 id="question-text">Question goes here</h2>
+    <div id="answer-options"></div>
+  </section>
                 <h2 id="question-text">Question goes here</h2>
                 <div id="answer-options">
                     <!-- answer buttons will be inserted here by JavaScript -->
